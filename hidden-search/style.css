@@ -30,7 +30,6 @@ body {
     height: 50px;
     width: 50px;
     transition: width 0.3s ease;
-    outline: none;
 }
 
 .btn {
@@ -47,7 +46,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.btn:focus .input:focus {
+.btn:focus, .input:focus {
     outline: none;
 }
 
